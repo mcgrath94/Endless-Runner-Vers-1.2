@@ -1,0 +1,7 @@
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+	<PropertyGroup>
+		<UnityInstallationDir>C:\Program Files (x86)\Unity\Editor</UnityInstallationDir>
+		<UnityWSAPlayerDir>C:\Program Files (x86)\Unity\Editor\Data\PlaybackEngines\metrosupport</UnityWSAPlayerDir>
+		<UnityProjectDir>C:\Users\Drogba\Desktop\Course\3rd Year\Semester 2\Unity\Version 1.1\Copy of Sidescroller\Sidescroller</UnityProjectDir>
+	</PropertyGroup>
+</Project>

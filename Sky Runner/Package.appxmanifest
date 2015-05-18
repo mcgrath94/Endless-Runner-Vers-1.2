@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Package xmlns:m2="http://schemas.microsoft.com/appx/2013/manifest" xmlns="http://schemas.microsoft.com/appx/2010/manifest">
+  <Identity Name="SkyRunner" Publisher="CN=THAW" Version="1.0.0.0" ProcessorArchitecture="x86" />
+  <Properties>
+    <DisplayName>Sky Runner</DisplayName>
+    <PublisherDisplayName>THAW</PublisherDisplayName>
+    <Logo>Assets\StoreLogo.png</Logo>
+  </Properties>
+  <Prerequisites>
+    <OSMinVersion>6.2.1</OSMinVersion>
+    <OSMaxVersionTested>6.2.1</OSMaxVersionTested>
+  </Prerequisites>
+  <Resources>
+    <Resource Language="x-generate" />
+  </Resources>
+  <Applications>
+    <Application Id="App" Executable="$targetnametoken$.exe" EntryPoint="SkyRunner.App">
+      <m2:VisualElements DisplayName="Sky Runner" Square150x150Logo="Assets\MediumTile.png" Square30x30Logo="Assets\SmallLogo.png" Description="2013_10 - Sample Assets" ForegroundText="light" BackgroundColor="#000000">
+        <m2:DefaultTile ShortName="Sky Runner" Wide310x150Logo="Assets\WideTile.png" Square70x70Logo="Assets\SmallTile.png" Square310x310Logo="Assets\LargeTile.png" DefaultSize="square150x150Logo">
+          <m2:ShowNameOnTiles>
+            <m2:ShowOn Tile="square150x150Logo" />
+          </m2:ShowNameOnTiles>
+        </m2:DefaultTile>
+        <m2:SplashScreen Image="Assets\SplashScreen.png" />
+      </m2:VisualElements>
+    </Application>
+  </Applications>
+  <Capabilities />
+</Package>
